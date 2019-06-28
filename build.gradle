@@ -12,6 +12,7 @@ repositories {
 task execute(type:JavaExec) {
     main = Math
     classpath = sourceSets.main.runtimeClasspath
+    println 'compiling unit tests'
 }
 dependencies {
     testCompile group: 'junit', name: 'junit', version: '4.12'
