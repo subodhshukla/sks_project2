@@ -9,6 +9,18 @@ repositories {
     mavenCentral()
 }
 
+test {
+
+    useTestNG() {
+        // report generation delegated to TestNG library:
+        useDefaultListeners = true
+    }
+    //we want display the following test events
+    testLogging {
+        events "PASSED", "FAILED", "SKIPPED"
+    }
+}
+
 task execute(type:JavaExec) {
     main = Math
     classpath = sourceSets.main.runtimeClasspath
