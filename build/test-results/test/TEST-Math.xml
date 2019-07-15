@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="Math" tests="3" skipped="0" failures="0" errors="0" timestamp="2019-06-28T12:23:06" hostname="SSAHMLTW02848" time="0.004">
+<testsuite name="Math" tests="3" skipped="0" failures="0" errors="0" timestamp="2019-07-04T13:41:06" hostname="SSAHMLTW02848" time="0.019">
   <properties/>
-  <testcase name="add" classname="Math" time="0.002"/>
+  <testcase name="add" classname="Math" time="0.013"/>
   <testcase name="sub" classname="Math" time="0.001"/>
-  <testcase name="mult" classname="Math" time="0.0"/>
+  <testcase name="mult" classname="Math" time="0.003"/>
   <system-out><![CDATA[17
 -1
 72
