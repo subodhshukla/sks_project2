@@ -9,7 +9,8 @@ public class MainClass {
     public void mult(int a, int b){
         System.out.println( c=a*b);
     }
-
+    public void devi(int a, int b){System.out.println( c=a/b);
+    }
    /* public static void main(String arg[]){
         MainClass obj=new MainClass();
         obj.add(8,9);

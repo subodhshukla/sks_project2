@@ -18,6 +18,10 @@ public class Math {
     public void mult(){
         obj.mult(8,9);
     }
+    @Test
+    public void div(){
+        obj.devi(18,9);
+    }
     //Test for branch1
     //Test for schedule jenkins
 }
